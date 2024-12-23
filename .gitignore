@@ -1,0 +1,4 @@
+#ignore nac files
+*.DS_Store
+
+

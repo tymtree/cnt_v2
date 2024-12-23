@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width:767px) {
     .apocalypse__list-wrapper {
         -webkit-box-orient: vertical;
@@ -236,8 +237,19 @@
     background-image: url(img/fintech-about-bg.jpg);
     background-size: cover
 }
+=======
+@media screen and (max-width:991px) {
+    .tools {
+        padding: 60px 0
+    }
+}
+>>>>>>> ace0158d9d70c4d90c01043e35e305a03daa8af1
 
+.tools p {
+    color: #323232
+}
 
+<<<<<<< HEAD
 @media screen and (max-width:991px) {
     .tools {
         padding: 60px 0
@@ -261,6 +273,21 @@
     display: flex
 }
 
+=======
+@media screen and (max-width:575px) {
+    .tools {
+        padding: 56px 0 58px
+    }
+}
+
+.tools__list--bottom {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+>>>>>>> ace0158d9d70c4d90c01043e35e305a03daa8af1
 @media (max-width:991px) {
     .tools__list--bottom {
         -ms-flex-wrap: wrap;
