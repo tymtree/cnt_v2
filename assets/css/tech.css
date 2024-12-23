@@ -1,3 +1,255 @@
+<<<<<<< HEAD
+@media screen and (max-width:767px) {
+    .apocalypse__list-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        max-width: 480px;
+        width: 100%
+    }
+}
+
+.apocalypse__tools {
+    margin: 80px auto 0;
+    width: 100%;
+    max-width: 952px;
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 17px;
+    border: 1px solid hsla(0, 0%, 59%, .76)
+}
+
+@media screen and (max-width:1023px) {
+    .apocalypse__tools {
+        max-width: 408px
+    }
+}
+
+@media screen and (max-width:320px) {
+    .apocalypse__tools {
+        max-width: 310px
+    }
+}
+
+.apocalypse__tools-title {
+    padding: 16px;
+    width: 100%;
+    border-bottom: 1px solid hsla(0, 0%, 59%, .76)
+}
+
+.apocalypse__tools-title h2,
+.apocalypse__tools-title h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: .83;
+    text-align: center;
+    color: #fafafa;
+    text-transform: uppercase
+}
+
+@media screen and (max-width:320px) {
+
+    .apocalypse__tools-title h2,
+    .apocalypse__tools-title h3 {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.1
+    }
+}
+
+.apocalypse__tools-items {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    width: 100%
+}
+
+@media screen and (max-width:1023px) {
+    .apocalypse__tools-items {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap
+    }
+}
+
+.apocalypse__item-wrapper {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap
+}
+
+@media screen and (max-width:1023px) {
+    .apocalypse__item-wrapper:not(:first-child) {
+        border-top: 1px solid hsla(0, 0%, 59%, .76)
+    }
+}
+
+.apocalypse__tools-item {
+    width: 135px;
+    height: 135px;
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    border-right: 1px solid hsla(0, 0%, 59%, .76)
+}
+
+@media screen and (max-width:1023px) {
+    .apocalypse__tools-item:nth-child(3n+0) {
+        border-right: none
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .apocalypse__tools-item {
+        width: 33.33333%
+    }
+}
+
+@media screen and (max-width:640px) {
+    .apocalypse__tools-item h3 {
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width:320px) {
+    .apocalypse__tools-item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around
+    }
+
+    .apocalypse__tools-item h3 {
+        font-size: 10px
+    }
+}
+
+.apocalypse__tools-item i {
+    color: #fff
+}
+
+.apocalypse__tools-item i.isoi-hyper {
+    font-size: 27px
+}
+
+.apocalypse__tools-item i.isoi-etherum {
+    font-size: 31px
+}
+
+.apocalypse__tools-item i.isoi-parity {
+    font-size: 23px
+}
+
+.apocalypse__tools-item i.isoi-exonum {
+    font-size: 25px
+}
+
+.apocalypse__tools-item i.isoi-r-3 {
+    font-size: 23px
+}
+
+.apocalypse__tools-item i.isoi-multichain {
+    font-size: 26px
+}
+
+.apocalypse__tools-item i.isoi-nxt {
+    font-size: 12px
+}
+
+.apocalypse__tools-item div.small-text,
+.apocalypse__tools-item h3.small-text,
+.apocalypse__tools-item p.small-text {
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 135px
+}
+
+.apocalypse__tools-item--nxt {
+    border-top: none;
+    border-right: none
+}
+
+@media screen and (max-width:1023px) {
+    .apocalypse__tools-item--nxt {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:320px) {
+    .apocalypse__tools-item--nxt {
+        border: none
+    }
+}
+
+.apocalypse--augmented-reality,
+.apocalypse--blockchain,
+.apocalypse--fintech,
+.apocalypse--internet-of-things {
+    background-image: url(img/fintech-about-bg.jpg);
+    background-size: cover
+}
+=======
+@media screen and (max-width:991px) {
+    .tools {
+        padding: 60px 0
+    }
+}
+>>>>>>> ace0158d9d70c4d90c01043e35e305a03daa8af1
+
+.tools p {
+    color: #323232
+}
+
+<<<<<<< HEAD
 @media screen and (max-width:991px) {
     .tools {
         padding: 60px 0
@@ -21,6 +273,21 @@
     display: flex
 }
 
+=======
+@media screen and (max-width:575px) {
+    .tools {
+        padding: 56px 0 58px
+    }
+}
+
+.tools__list--bottom {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+>>>>>>> ace0158d9d70c4d90c01043e35e305a03daa8af1
 @media (max-width:991px) {
     .tools__list--bottom {
         -ms-flex-wrap: wrap;
